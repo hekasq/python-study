@@ -2,6 +2,7 @@
 #
 
 def basic_strings():
+    print("Basic String: ")
     string1 = 'hello'
     string2 = "hey"
     string3 = " spaces"
@@ -9,15 +10,18 @@ def basic_strings():
 
 
 def escapes():
+    print("Escapes: ")
     print("upper \nlower")
     print("hello \t-tab-world")
 
 
 def length():
+    print("Length: ")
     print("Length of Racoon is", len("racoon"))
 
 
 def indices():
+    print("Indices: ")
     string1 = 'squirrel'
     print(string1[0])
     print(string1[-1])
@@ -25,6 +29,7 @@ def indices():
 
 # slice is like custom index
 def slicing():
+    print("Slicing: ")
     string1 = 'opossums are cool'
     print(string1[0:9])
     print(string1[:9])
@@ -37,6 +42,7 @@ def slicing():
 
 
 def concat():
+    print("Concat: ")
     x = "rats"
     print(x)
     x = x + " are smart "
@@ -46,6 +52,7 @@ def concat():
 
 
 def manipulation():
+    print("Manipulation: ")
     bird = "parrot"
     # not in place
     print(bird.upper())
@@ -55,6 +62,7 @@ def manipulation():
 
 
 def formatting():
+    print("Format: ")
     whale = "Whales are large and impressive {}"
     print(whale.format("MAMMALS"))
     print('The {} {} {}'.format("fox", "brown", "quick"))
@@ -70,6 +78,7 @@ def formatting():
 
 
 def fstrings():
+    print("Fstrings: ")
     name = 'Al'
     age =3
     print(f'My hamster\'s name is {name}')

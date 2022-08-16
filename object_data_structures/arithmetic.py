@@ -1,18 +1,17 @@
 def add_numbers_int(num1, num2):
-    print(num1 + num2)
-
-
-def add_numbers_float(num1, num2, num3):
+    print("Add int: ")
     print(num1 + num2)
 
 
 # Why doesn't 0.1+0.2-0.3 equal 0.0 ? floating point accuracy and computer's abilities to represent numbers in
 # memory; https://docs.python.org/2/tutorial/floatingpoint.html
 def add_numbers_float(num1, num2, num3):
+    print("Add float: ")
     print(num1 + num2 + num3)
 
 
 def check_modulus(num1, num2):
+    print("Modulus: ")
     print(num1 % num2)
 
 
