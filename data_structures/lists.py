@@ -40,8 +40,33 @@ def sorting():
 
     print(animals)
 
+def manipulation ():
+    print("MANIPULATION: ")
+    animals = ['sqrl']
+    insects = ['bee']
+
+    animals.append("hamster")
+    print(animals)
+    animals.extend(insects)
+    print(animals)
+
+    animals.insert(1,"ratster")
+    print(animals)
+
+    animals.remove("ratster")
+    print(animals)
+
+    removed= animals.pop(1)
+    print(animals)
+    print(removed)
+
+
+    print(len(animals))
+
+
+
+
+
 
 if __name__ == '__main__':
-    basic()
-    idxs()
-    sorting()
+    manipulation()
