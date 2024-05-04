@@ -86,12 +86,12 @@ def fstrings():
 
 
 if __name__ == '__main__':
-    basic_strings()
-    escapes()
-    length()
-    indices()
-    slicing()
+    #basic_strings()
+    #escapes()
+    #length()
+    #indices()
+    #slicing()
     concat()
-    manipulation()
-    formatting()
-    fstrings()
+    #manipulation()
+    #formatting()
+    #fstrings()
