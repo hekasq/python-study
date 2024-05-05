@@ -1,0 +1,14 @@
+2023-05-01T12:00:00 INFO 200 OK - User requested index page
+2023-05-01T12:01:00 ERROR 500 Internal Server Error - Server error occurred
+2023-05-01T12:01:30 ERROR 500 Internal Server Error - Database connection failed
+2023-05-01T12:02:00 ERROR 503 Service Unavailable - Service is down for maintenance
+2023-05-01T12:05:00 INFO 200 OK - User requested contact page
+2023-05-01T12:10:00 WARN 404 Not Found - User requested missing page
+2023-05-01T12:15:00 INFO 200 OK - User logged in successfully
+2023-05-01T12:20:00 ERROR 500 Internal Server Error - Exception in application logic
+2023-05-01T12:25:00 INFO 200 OK - User requested settings page
+2023-05-01T12:30:00 WARN 401 Unauthorized - Unauthorized access attempt
+2023-05-01T12:35:00 INFO 200 OK - User requested logout page
+2023-05-01T12:40:00 INFO 200 OK - User requested profile page
+2023-05-01T12:45:00 ERROR 502 Bad Gateway - Gateway received an invalid response
+2023-05-01T12:50:00 INFO 200 OK - User updated profile successfully
