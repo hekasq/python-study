@@ -1,0 +1,29 @@
+local:
+  - name: "localhost"
+    index: "logs"
+    ttl: 30d
+    circuit_breaker_docs: 100000
+#  - name: "localhost"
+#    index: "logs"
+#    ttl: 1h
+#    circuit_breaker_docs: 100
+local_test:
+  - name: "test"
+    index: "logs"
+    ttl: 30d
+    max_health_attempts: 5
+    circuit_breaker_docs: 100000
+dev:
+  - url: "http://dev-cluster-url:9200"
+    index: "dev_index"
+    ttl_days: 30
+    slack_webhook: "https://hooks.slack.com/services/T00000000/B00000000/YYYYYYYYYYYYYYYYYYYYYYYY"
+prod:
+  - url: "http://dev-cluster-url:9200"
+    index: "dev_index"
+    ttl_days: 30
+    slack_webhook: "https://hooks.slack.com/services/T00000000/B00000000/YYYYYYYYYYYYYYYYYYYYYYYY"
+  - url: "http://dev-cluster-url:9200"
+    index: "dev_index"
+    ttl_days: 30
+    slack_webhook: "https://hooks.slack.com/services/T00000000/B00000000/YYYYYYYYYYYYYYYYYYYYYYYY"
